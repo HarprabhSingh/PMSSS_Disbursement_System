@@ -4,13 +4,13 @@ export default function Home() {
     return (
         <>
             <div className=' bg-gray-200 min-h-screen'>
-                <div className="bg-gray-200 pt-[80px] pb-[150px] text-center ">
+                <div className="bg-gray-200 pt-[40px] pb-[150px] text-center ">
                     <h1 className="text-3xl lg:text-[2.5rem]">Create New Account</h1>
                     <p className="mt-5">
                         <Link href={`/login`}>Already have an account? <span className='text-violet-900 font-semibold'>Log In</span></Link>
                     </p>
                 </div>
-                <div className="bg-white sm:w-[90vw] xl:w-[50vw] mt-[-130px] mb-7 m-auto px-14 pt-16 pb-10 rounded-3xl">
+                <div className="bg-white sm:w-[90vw] xl:w-[50vw] mt-[-130px] mb-2 m-auto px-14 pt-16 pb-10 rounded-3xl">
                     <div>
                         <form>
                             {/* Name field */}
